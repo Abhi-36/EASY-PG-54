@@ -1,0 +1,60 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    max-width: 340px; /* Restricts the width of the login form */
+    margin: 0 auto; /* Centers the form horizontally */
+    background-color: #ffffff; /* Gives a white background to the form */
+    border-radius: 10px; /* Rounded corners for a softer appearance */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+input {
+    width: 100%;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: border-color 0.3s ease;
+
+    /* Apply the shared height style */
+    height: inherit;  /* This will inherit the height from .login-input-button-shared */
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2); /* Subtle focus glow */
+}
+button {
+    width: 100%;
+    padding: 0.8rem 0; /* Ensure padding is only vertical */
+    box-sizing: border-box; /* Ensure width includes padding and border */
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+input, button {
+    width: 100%;
+    padding: 0.7rem;   /* Or adjust as needed */
+    box-sizing: border-box;  /* This ensures padding doesn't affect the overall width */
+    margin: 0.5rem 0;
+}
+
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+

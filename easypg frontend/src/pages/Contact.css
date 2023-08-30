@@ -1,0 +1,38 @@
+/* src/Contact.css */
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-content {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.contact-item i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+

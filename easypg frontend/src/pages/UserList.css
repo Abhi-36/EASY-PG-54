@@ -1,0 +1,23 @@
+/* src/styles/UserList.css */
+
+.user-list-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.user-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    margin: 1rem 0;
+}
+
+.user-item button {
+    margin-left: 1rem;
+}

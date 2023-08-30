@@ -1,0 +1,59 @@
+.sidebar {
+    width: 250px;  /* Example width, can adjust as necessary */
+    height: calc(100vh - [Header Height]); /* replace [Header Height] with your actual header height */
+    position: fixed;
+    top: [Header Height]; /* replace this with your header's height */
+    left: 0;
+    /* ... other styles ... */
+    
+}
+.sidebar {
+    background-color: #2c3e50;  /* Deep blue shade, adjust as needed */
+    width: 250px;  /* adjust as per your design */
+    height: 100vh;
+    overflow-y: auto;  /* For scroll if content is more */
+}
+
+.sidebar a {
+    padding-left: 30px;
+}
+.sidebar h2 {
+    padding-left: 30px;
+}
+
+.sidebar-section {
+    border-bottom: 1px solid #34495e; /* Adds a subtle border between sections */
+    margin-bottom: 15px;
+}
+
+.sidebar-item {
+    margin-bottom: 5px;  /* Spacing between items */
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.sidebar li a:hover {
+    color: #E74C3C;
+}

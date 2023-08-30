@@ -1,0 +1,67 @@
+.header {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2C3E50;
+    color: white;
+}
+.header {
+    margin: 0;
+    overflow: hidden;  /* To clip potential overflowing content */
+    width: 100%;       /* Ensures that it takes up the full width and no more */
+}
+.header * {  /* This targets all child elements of the header */
+    box-sizing: border-box;  /* This ensures padding and borders don't add to the width */
+    max-width: 100%;         /* Prevents child elements from exceeding the width of the header */
+    overflow: auto;          /* If an element has to overflow, it'll do it in an organized manner with a scrollbar */
+}
+.header {
+    max-width: 97%;  /* or use a fixed value like 1200px */
+    margin: 0 auto;  /* this will center the header horizontally */
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.header nav li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.header nav li a:hover {
+    color: #E74C3C;
+}
+.headerElement {
+    padding: 2% ;
+}
+.header {
+    height: 80px; /* Example height */
+    /* other header styles */
+}.header {
+    height: auto; /* or your desired height, e.g., 60px */
+    /* any other styles you want to enforce */
+}
+.header { /* Or whatever class your header has */
+    height: 60px; /* Adjust as needed */
+    width: 100%;
+}
+/* Header.css */
+/* Header.css */
+.logo {
+    max-width: 150px; /* Adjust the max-width as needed */
+    height: auto;
+}
+
+
+

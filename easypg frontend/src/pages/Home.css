@@ -1,0 +1,27 @@
+.home-content {
+    padding: 2rem;
+    flex: 1;  /* To take up remaining space after header and sidebar */
+}
+
+.features {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.feature-card {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.feature-card p {
+    margin-bottom: 0;
+}

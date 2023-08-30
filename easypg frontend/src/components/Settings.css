@@ -1,0 +1,12 @@
+.settings-container {
+    padding: 2rem;
+}
+
+.settings-container form div {
+    margin-bottom: 1rem;
+}
+
+.settings-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+}

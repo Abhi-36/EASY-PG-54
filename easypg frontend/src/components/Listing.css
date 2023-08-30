@@ -1,0 +1,15 @@
+.listing-container {
+    padding: 2rem;
+}
+
+.listing-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.listing-container li {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}

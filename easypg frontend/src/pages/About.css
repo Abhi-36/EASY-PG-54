@@ -1,0 +1,17 @@
+/* src/About.css */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content {
+    font-size: 16px;
+    line-height: 1.6;
+}
